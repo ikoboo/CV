@@ -1,0 +1,206 @@
+h1 {
+font-size:  3em;
+  margin: 50px auto 0 auto;
+/*width: 100%;
+position: absolute;
+margin: auto 0;*/
+font-family: 'Sacramento', cursive;
+color: #00fafa;
+line-height: 1;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 2rem;
+  color: #00fafa;
+  font-weight: bolder;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.copyright {
+  color: #f0f0f0;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+body {
+  color:#40514E;
+  margin: 0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+font-size: 1.2em;
+}
+
+hr.style1 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -3px #8c8b8b inset;
+    margin: 3% auto;
+}
+
+hr.style2{
+  border: 0; 
+  height: 0.3rem; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin: 3% auto; 
+}
+.Top {
+  background-color: #529bff;
+  position: relative;
+  padding-top: 30px;
+
+}
+
+.Middle {
+  background-color: #ffffffc7;
+  position: relative;
+  padding-top: 50px;
+}
+
+.Bottom {
+background-color: rgb(9, 51, 58);
+padding: 30px 0 20px;
+
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
+.web{
+  text-decoration: rgb(145, 145, 236) wavy underline;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.skill{
+  width: 50%;
+  margin: 10px auto;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  border-spacing: 1rem;
+}
+
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.center {
+  margin:auto;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 20px auto 50px;
+}
+
+.Home-btn{
+  background-color: rgb(228, 241, 241);
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  margin: auto;
+  left: 5%;
+  font-size: 1rem;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("4.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */
+
+/*Scenery - Objects*/
+.Sun{
+  position: absolute;
+  /*top: 10%;*/
+  left: 200px;
+  width: 200px;
+}
+
+.cloud-top{
+  position: absolute;
+  right: 17rem;
+  top: 5rem;
+}
+
+.cloud-bottom{
+  position: absolute;
+  left: 300px;
+}
